@@ -1,2 +1,18 @@
-# .config
-all config files i use
+# ~/.config
+
+Brew:
+brew install nvim ghostty
+sudo pacman -S neovim ghostty
+
+LazyVim installation:
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+rm -rf ~/.config/nvim/.git
+nvim
+
+Clear files: 
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.cache/nvim
+
+
